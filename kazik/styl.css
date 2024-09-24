@@ -1,0 +1,38 @@
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Gradamond;
+            text-align: center;
+        }
+        #essa{
+            text-align: left;
+        }
+        #top , #bot{
+            background-color: #8C7B75;
+            color: white;
+            height: 70px;
+            font-size: 150%;
+        }
+        #mid{
+            display: flex;
+        }
+        #left , #srodek , #right{
+            flex: 1;
+            padding-top: 10px;
+        }
+        #left, #right{
+            background-color: #BCAAA4;
+            height: 400px;
+            width: 35%;
+        }
+        #srodek{
+            background-color: #EFDCD5;
+            height: 400px;
+            width: 30%;
+        }
+        #zdj{
+            width: 180px;
+            border: dashed, black, 1px;
+            border-radius: 10%;
+            margin: 5px;
+        }
